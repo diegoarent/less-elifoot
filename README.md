@@ -19,3 +19,19 @@ Explicado isto, com certeza muitas referências à cores, fontes, margens, espa�
 * Jogo: Elifoot
 * Páginas: Capa, Classificação e Jogo
 * Versão: Elifoot 98
+
+# Página Classificação
+
+## Versão original
+
+<img src="./assets/img/standing-base.jpg" />
+
+## Versão desenvolvida
+
+### Desktop
+
+<img src="./assets/img/standing-less-desktop.jpg" />
+
+### Mobile
+
+<img src="./assets/img/standing-less-mobile.jpg" width=320 />
