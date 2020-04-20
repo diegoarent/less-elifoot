@@ -1,0 +1,118 @@
+.t-aston-villa {
+    background: brown;
+    color: lightblue;
+}
+
+.t-atletico-madrid {
+    background: white;
+    color: red;
+}
+
+.t-barcelona {
+    background: darkblue;
+    color: red;
+}
+
+.t-bayern-munchen,
+.t-benfica,
+.t-derry-city,
+.t-dynamo-kyiv,
+.t-liverpool,
+.t-manchester-united {
+    background: red;
+    color: #fff;
+}
+
+.t-borussia-dortmund,
+.t-lierse,
+.t-parma {
+    background: yellow;
+    color: black;
+}
+
+.t-fiorentina {
+    background: purple;
+    color: red;
+}
+
+.t-galatasaray {
+    background: yellow;
+    color: red;
+}
+
+.t-guimaraes,
+.t-metz,
+.t-udinese {
+    background: white;
+    color: black;
+}
+
+.t-hadjuk-split,
+.t-real-madrid {
+    background: white;
+    color: blue;
+}
+
+.t-huddersfield {
+    background: blue;
+    color: white;
+}
+
+.t-inter-milan {
+    background: black;
+    color: lightblue;
+}
+
+.t-juventus {
+    background: black;
+    color: white;
+}
+
+.t-lazio {
+    background: white;
+    color: blue;
+}
+
+.t-milan {
+    background: black;
+    color: red;
+}
+
+.t-monaco {
+    background: red;
+    color: white;
+}
+.t-montpellier {
+    background: white;
+    color: blue;
+}
+
+.t-porto {
+    background: darkblue;
+    color: white;
+}
+
+.t-nantes {
+    background: yellow;
+    color: blue;
+}
+
+.t-rapid-vien {
+    background: white;
+    color: green;
+}
+
+.t-rome {
+    background: red;
+    color: yellow;
+}
+
+.t-sporting {
+    background: green;
+    color: white;
+}
+
+.t-torino {
+    background: white;
+    color: green;
+}
