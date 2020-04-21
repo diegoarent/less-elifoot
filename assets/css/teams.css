@@ -1,6 +1,28 @@
+.t-america-mg,
+.t-gama,
+.t-rapid-vien {
+    background: white;
+    color: green;
+}
+
 .t-aston-villa {
     background: brown;
     color: lightblue;
+}
+
+.t-athletico,
+.t-bayern-munchen,
+.t-benfica,
+.t-botafogo-sp,
+.t-derry-city,
+.t-dynamo-kyiv,
+.t-internacional,
+.t-liverpool,
+.t-manchester-united,
+.t-monaco,
+.t-sao-paulo {
+    background: red;
+    color: white;
 }
 
 .t-atletico-madrid {
@@ -8,19 +30,27 @@
     color: red;
 }
 
+.t-atletico-mg,
+.t-bragantino,
+.t-figueirense,
+.t-juventus,
+.t-ponte-preta,
+.t-santos {
+    background: black;
+    color: white;
+}
+
+.t-avai,
+.t-brusque,
+.t-huddersfield {
+    background: blue;
+    color: white;
+}
+
+.t-bahia,
 .t-barcelona {
     background: darkblue;
     color: red;
-}
-
-.t-bayern-munchen,
-.t-benfica,
-.t-derry-city,
-.t-dynamo-kyiv,
-.t-liverpool,
-.t-manchester-united {
-    background: red;
-    color: #fff;
 }
 
 .t-borussia-dortmund,
@@ -30,9 +60,51 @@
     color: black;
 }
 
+.t-botafogo-santiago {
+    background: gray;
+    color: greenyellow;
+}
+
+.t-corinthians,
+.t-guimaraes,
+.t-metz,
+.t-udinese,
+.t-vasco {
+    background: white;
+    color: black;
+}
+
+.t-coritiba,
+.t-goias,
+.t-juventude,
+.t-palmeiras,
+.t-sporting {
+    background: green;
+    color: white;
+}
+
+.t-cruzeiro,
+.t-gremio,
+.t-porto {
+    background: darkblue;
+    color: white;
+}
+
 .t-fiorentina {
     background: purple;
     color: red;
+}
+
+.t-flamengo {
+    background: red;
+    color: black;
+}
+
+.t-fluminense,
+.t-portuguesa,
+.t-portuguesa-santista {
+    background: red;
+    color: lightgreen;
 }
 
 .t-galatasaray {
@@ -40,11 +112,9 @@
     color: red;
 }
 
-.t-guimaraes,
-.t-metz,
-.t-udinese {
-    background: white;
-    color: black;
+.t-guarani {
+    background: black;
+    color: green;
 }
 
 .t-hadjuk-split,
@@ -53,19 +123,9 @@
     color: blue;
 }
 
-.t-huddersfield {
-    background: blue;
-    color: white;
-}
-
 .t-inter-milan {
     background: black;
     color: lightblue;
-}
-
-.t-juventus {
-    background: black;
-    color: white;
 }
 
 .t-lazio {
@@ -73,23 +133,16 @@
     color: blue;
 }
 
-.t-milan {
+.t-milan,
+.t-sport,
+.t-vitoria {
     background: black;
     color: red;
 }
 
-.t-monaco {
-    background: red;
-    color: white;
-}
 .t-montpellier {
     background: white;
     color: blue;
-}
-
-.t-porto {
-    background: darkblue;
-    color: white;
 }
 
 .t-nantes {
@@ -97,9 +150,9 @@
     color: blue;
 }
 
-.t-rapid-vien {
-    background: white;
-    color: green;
+.t-parana {
+    background: red;
+    color: blue;
 }
 
 .t-rome {
@@ -107,12 +160,12 @@
     color: yellow;
 }
 
-.t-sporting {
-    background: green;
-    color: white;
-}
-
 .t-torino {
     background: white;
     color: green;
+}
+
+.t-tubarao {
+    background: blue;
+    color: black;
 }

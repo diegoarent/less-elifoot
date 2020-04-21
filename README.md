@@ -16,22 +16,34 @@ Explicado isto, com certeza muitas referências à cores, fontes, margens, espa�
 
 # LESS Elifoot
 
-* Jogo: Elifoot
-* Páginas: Capa, Classificação e Jogo
-* Versão: Elifoot 98
+-   Jogo: Elifoot
+-   Páginas: Classificação e Jogo
+-   Versão: Elifoot 98
 
 # Página Classificação
 
-## Versão original
+## Classificação - Original
 
-<img src="./assets/img/standing-base.jpg" />
+<img src="./assets/img/standings-base.jpg" />
 
-## Versão desenvolvida
+## Classificação - LESS Desktop
 
-### Desktop
+<img src="./assets/img/standings-less-desktop.jpg" />
 
-<img src="./assets/img/standing-less-desktop.jpg" />
+## Classificação - LESS Mobile
 
-### Mobile
+<img src="./assets/img/standings-less-mobile.jpg" width=320 />
 
-<img src="./assets/img/standing-less-mobile.jpg" width=320 />
+# Página Rodada de jogos
+
+## Rodada - Original
+
+<img src="./assets/img/fixture-base.jpg" />
+
+## Rodada - LESS Desktop
+
+<img src="./assets/img/fixture-less-desktop.jpg" />
+
+## Rodada - LESS Mobile
+
+<img src="./assets/img/fixture-less-mobile.jpg" width=320 />

@@ -143,6 +143,127 @@ main header .close {
     padding-left: 5px;
 }
 
+.fixture {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fixture .info {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-align: right;
+}
+
+.fixture .clock {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid red;
+    float: left;
+    margin: 1em;
+}
+
+.fixture .min25 {
+    background-image: linear-gradient(-90deg, transparent 50%, white 50%),
+        linear-gradient(60deg, white 50%, transparent 50%);
+}
+
+.fixture fieldset {
+    border: 1px solid black;
+    padding: 6px;
+    padding-bottom: 10px;
+    margin-top: -9px;
+}
+
+.fixture fieldset legend {
+    margin-left: 30px;
+    padding: 0 2px;
+    font-weight: 700;
+    background: green;
+}
+
+.fixture .match {
+    display: flex;
+    width: 100%;
+    padding: 1px;
+    line-height: 16px;
+    flex-wrap: wrap;
+}
+
+.fixture .match .attendance {
+    display: none;
+}
+
+.fixture .match .detail {
+    display: flex;
+    width: 100%;
+    max-width: 392px;
+}
+
+.fixture .match .team {
+    border: 1px solid currentColor;
+    width: 50%;
+    padding: 2px;
+
+    text-align: left;
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+
+.fixture .match .result {
+    width: 16px;
+    text-align: center;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.fixture .match .event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+}
+
+.fixture .match .event.red-card:before {
+    content: "";
+    display: inline-block;
+    background: red;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.fixture .match .event.injured:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    content: "+";
+    font-size: 28px;
+    font-weight: 700;
+    background: white;
+    color: red;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+@media (min-width: 678px) {
+    .fixture .match .team {
+        max-width: 180px;
+    }
+}
+
 @media (min-width: 550px) {
     html,
     body {
@@ -154,5 +275,23 @@ main header .close {
         grid-auto-columns: 1fr;
         grid-auto-flow: column;
         padding: 10px;
+    }
+
+    .fixture .match {
+        flex-wrap: nowrap;
+    }
+
+    .fixture .match .attendance {
+        display: block;
+        text-align: right;
+        width: 45px;
+        padding: 3px;
+        text-align: center;
+        flex-shrink: 0;
+    }
+
+    .fixture .match .event {
+        text-align: left;
+        justify-content: left;
     }
 }
